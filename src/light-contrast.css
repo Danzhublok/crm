@@ -1,0 +1,41 @@
+/* Higher contrast for light mode; retain the spacious conversation layout. */
+.app:not(.dark-mode){--accent:#1d4ed8;--accent-soft:#dbeafe;--muted:#475569;--border:#a9b8cc;--panel:#fff;background:#e8edf5;color:#172a46}
+.app:not(.dark-mode) :is(h1,h2,h3,h4,b,strong){color:#172a46}
+.app:not(.dark-mode) :is(p,small,td,.breadcrumb,.top-date,.workspace-label,.nav-label,.system-state,.brand-workspace-label,.conversation-name span,.conversation time,.last-message,.list-section-label,.list-bottom,.chat-person p,.chat-toolbar,.chat-toolbar button,.message-meta,.chat-event,.unread-caption,.composer-top button,.composer-bottom span,.profile-title,.section-label,.profile-contact span,.opportunity span,.opportunity b,.field>span,.muted,.eyebrow,.chart-legend,.metric-card>div,.metric-card>span,.financial-strip span,.data-grid span,.proposal-values span,.task-row>span,.campaign-metrics span,.team-stats span,.report-summary span,.goal-values span,.calendar-date,.rule-steps,.availability,.setting-row small){color:#475569}
+.app:not(.dark-mode) :is(.sidebar nav button,.settings-layout>nav>button,.operation-tabs button,.status-tabs>button:not(.icon-btn),.profile-tabs button,.segment button,.icon-btn,.text-link){color:#354c6e}
+.app:not(.dark-mode) :is(.topbar,.operation-bar,.sidebar,.chat-header,.composer,.panel,.metric-card,.lead-panel,.modal,.notifications,.quick-popover,.table-wrap,.conversation-list){background:#fff;border-color:#a9b8cc}
+.app:not(.dark-mode) :is(.chat,.chat-messages,.inbox-heading,.kanban-column,.bot-chat){background-color:#e8edf5}
+.app:not(.dark-mode) .chat-messages{background-image:radial-gradient(#8095b54d .7px,transparent .7px)}
+.app:not(.dark-mode) :is(.chat-toolbar,.workspace,.flow-node,.score-card,.opportunity,.next-action,.notice,.goal-result,.rule-steps>span,.proposal-card,.ai-context,.ai-options button,.ai-output,.list-bottom){background:#eff3f9;border-color:#a9b8cc;color:#354c6e}
+.app:not(.dark-mode) :is(.conversation,.status-tabs,.profile-contact,.task-row,.calendar-cell,.calendar-date,.campaign-metrics,.team-footer,.setting-row,.integration,.modal>header,.modal-footer,.profile-tabs,.criteria,.document-row,.profile-conversations>div,.source-row,.rule-card>footer,.team-stats span,.followup-row,.notification,.kanban-card footer,.composer-top){border-color:#c0ccdc}
+.app:not(.dark-mode) :is(input,select,textarea,.search-input,.lead-panel select){background:#fff;border-color:#7890ad;color:#172a46}
+.app:not(.dark-mode) :is(input,textarea)::placeholder{color:#53647a;opacity:1}
+.app:not(.dark-mode) .composer textarea{background:transparent;color:#172a46}
+.app:not(.dark-mode) .composer{border-color:#7890ad;box-shadow:0 2px 8px #17305212}
+.app:not(.dark-mode) :is(.sidebar nav button.active,.settings-layout>nav>button.active,.operation-tabs button.selected,.status-tabs>button.active,.profile-tabs button.active,.segment button.active,.conversation.selected){background:#dbeafe;border-color:#7aa3dd;color:#174393}
+.app:not(.dark-mode) .conversation.selected{box-shadow:inset 3px 0 #1d4ed8}
+.app:not(.dark-mode) :is(.sidebar nav button:hover,.conversation:hover,tbody tr:hover,.btn:hover,.icon-btn:hover){background:#e4edfa;color:#174393}
+.app:not(.dark-mode) .chat-header>.icon-btn{background:#eff3f9;border-color:#a9b8cc;color:#354c6e}
+.app:not(.dark-mode) :is(.btn,.checkbox,.task-check){border-color:#7890ad;color:#354c6e}
+.app:not(.dark-mode) :is(.btn.primary,.composer-bottom .btn,.toggle.on,.bot-bubble.answer){background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+.app:not(.dark-mode) .btn.primary:hover{background:#1e40af;border-color:#1e40af}
+.app:not(.dark-mode) .btn.danger{background:#fff1f2;border-color:#cc7d87;color:#9f1239}
+.app:not(.dark-mode) :is(.avatar,.conversation .avatar,.chat-header>.avatar,.lead-identity .avatar,.workspace-avatar,.tiny-avatar,.next-icon,.campaign-icon,.rule-icon,.integration-logo){background:#dbe7f8;border-color:#a3b9d7;color:#224c89}
+.app:not(.dark-mode) :is(.chip,.chip.blue,.tag,.tab-count,.list-tools h3 span,.status-tabs small,.conversation-footer>small,.day-separator span,.message-author>span,.demo-pill,.workspace-version){background:#e4edfa;border-color:#a3b9d7;color:#354c6e}
+.app:not(.dark-mode) .chip.gold{background:#f4ead5;border-color:#d0b986;color:#715018}
+.app:not(.dark-mode) :is(.chip.green,.chat-person h3 .chip,.inbox-heading h1>span){background:#dff2e8;border-color:#99c9b2;color:#166044}
+.app:not(.dark-mode) :is(.chip.warm,.temperature){background:#fff0de;border-color:#dfb68a;color:#8b4314}
+.app:not(.dark-mode) .temperature.medium{background:#fff3cd;color:#71500d}.app:not(.dark-mode) .temperature.cold{background:#dfeaff;color:#234c89}
+.app:not(.dark-mode) :is(.message-bubble,.message-row.bot .message-bubble){background:#fff;border-color:#a3b5ce;box-shadow:0 2px 6px #1730520d}
+.app:not(.dark-mode) .message-row.bot .message-bubble{border-left-color:#4678be}
+.app:not(.dark-mode) .message-bubble p{color:#172a46}
+.app:not(.dark-mode) :is(.message-author,.message-row.bot .message-author,.ai-inline b,.ai-inline>button,.score-card strong,.opportunity strong,.attachment,.composer-top .ai-trigger){color:#234f90}
+.app:not(.dark-mode) .composer-top .ai-trigger{background:#e4edfa;border-color:#a3b9d7}
+.app:not(.dark-mode) .ai-inline{background:#fff;border-color:#a3b5ce;color:#234f90}
+.app:not(.dark-mode) .message-row.agent .message-bubble{background:#1d4ed8;border-color:#1d4ed8}
+.app:not(.dark-mode) .message-row.agent :is(p,.message-author,.message-meta,.attachment){color:#eff6ff}
+.app:not(.dark-mode) .message-row.agent .message-meta svg{color:#eff6ff}
+.app:not(.dark-mode) th{background:#e8eef7;color:#354c6e;border-color:#a9b8cc}.app:not(.dark-mode) td{border-color:#c0ccdc}
+.app:not(.dark-mode) .progress{background:#c5d2e5}.app:not(.dark-mode) .toggle{border-color:#7890ad}.app:not(.dark-mode) .toggle:not(.on){background:#d5dfed}
+.app:not(.dark-mode) .recharts-cartesian-axis-tick-value{fill:#475569}.app:not(.dark-mode) .recharts-cartesian-grid line{stroke:#c0ccdc}
+.app:not(.dark-mode) :is(button,a,input,select,textarea):focus-visible{outline:3px solid #2563eb;outline-offset:2px}
