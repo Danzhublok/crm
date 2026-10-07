@@ -1,0 +1,30 @@
+.avatar{overflow:hidden;flex-shrink:0}.avatar img{width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit}
+:root[data-theme=dark]{color-scheme:dark;background:#0b1422;color:#e6edf8}
+.app.dark-mode{--accent:#7bafff;--accent-soft:#1b3455;--muted:#a1b4ce;--border:#293c56;--panel:#122035;color:#e6edf8;background:#0b1422}
+.dark-mode :is(.sidebar,.topbar,.operation-bar,.conversation-list,.chat-header,.chat-toolbar,.composer,.lead-panel,.mobile-info-header,.panel,.metric-card,.financial-strip,.table-wrap,.modal,.notifications,.quick-popover,.goal-ring>div,.segment){background:#122035;border-color:#293c56;box-shadow:none;color:#e6edf8}
+.dark-mode :is(.inbox-heading,.chat,.inbox-layout,.chat-messages,.kanban-column,.bot-chat){background-color:#0e192a;border-color:#293c56}
+.dark-mode .chat-messages{background-image:radial-gradient(#29436255 .7px,transparent .7px)}
+.dark-mode :is(input,select,textarea,.lead-panel select,.search-input){background:#101c2e;border-color:#304763;color:#e6edf8}
+.dark-mode :is(input,textarea)::placeholder{color:#9aafcc}
+.dark-mode :is(.workspace,.score-card,.opportunity,.next-action,.ai-inline,.notice,.goal-result,.flow-node,.rule-steps>span,.proposal-card,.ai-context,.ai-options button,.ai-output,.calendar-event,.calendar-cell.today,.kanban-card,.bot-bubble,.list-bottom,.pending-file){background:#17283f;border-color:#304763;box-shadow:none;color:#dce8f8}
+.dark-mode .brand-showcase{border-radius:9px;background:#fff;border-color:#fff;margin-bottom:12px}.dark-mode .brand-workspace-label{color:#5b7393}
+.dark-mode :is(h1,h2,h3,h4,.breadcrumb b,.conversation-name b,.chat-person h3,.lead-identity h2,.page-title h1,.list-tools h3,.metric-card strong,.financial-strip b,.person-cell b,.kanban-name,.task-row b,.calendar-date b,.calendar-event b,.campaign-metrics b,.team-stats b,.data-grid b,.proposal-values b,.report-summary b,.goal-ring strong,.goal-values b,.user b,.workspace b,.modal>header h2){color:#e6edf8}
+.dark-mode :is(p,small,.breadcrumb,.top-date,.eyebrow,.workspace-label,.nav-label,.system-state,.last-message,.conversation time,.conversation-name span,.list-section-label,.profile-title,.section-label,.chat-person p,.chat-toolbar,.chat-toolbar button,.message-meta,.chat-event,.composer-top button,.composer-bottom span,.profile-contact span,.opportunity span,.opportunity b,.muted,.field>span,.data-grid span,.proposal-values span,.task-row>span,.settings-panel>p,.setting-row small,.profile-tabs button,.chart-legend,.metric-card>div,.metric-card>span,.financial-strip span){color:#a9bdd8}
+.dark-mode :is(.sidebar nav button,.settings-layout>nav>button,.operation-tabs button,.status-tabs>button:not(.icon-btn)){color:#a9bdd8}
+.dark-mode :is(.sidebar nav button.active,.settings-layout>nav>button.active,.operation-tabs button.selected,.status-tabs>button.active,.profile-tabs button.active,.segment button.active,.conversation.selected){background:#1c3658;border-color:#365885;color:#a9ceff}
+.dark-mode :is(.sidebar nav button:hover,.conversation:hover,tbody tr:hover,.btn:hover,.icon-btn:hover){background:#1b304d;color:#d6e7ff}
+.dark-mode :is(.conversation,.status-tabs,.chat-header,.composer-top,.profile-contact,.opportunity .split,.task-row,.calendar-cell,.calendar-date,.campaign-metrics,.team-footer,.setting-row,.integration,.modal>header,.modal-footer,.profile-tabs,.criteria,.full-details,.profile-summary,.document-row,.profile-conversations>div,.source-row,.rule-card>footer,.team-stats span,.followup-row,.notification,.kanban-card footer){border-color:#293c56}
+.dark-mode :is(.avatar,.conversation .avatar,.conversation .avatar.blue,.chat-header>.avatar,.lead-identity .avatar,.workspace-avatar,.tiny-avatar,.next-icon,.campaign-icon,.rule-icon,.integration-logo){background:#233d60;border-color:#34537a;color:#b9d7ff}
+.dark-mode :is(.btn,.chat-header>.icon-btn,.task-check,.checkbox){background:#1a2e49;border-color:#345073;color:#c1d9f9}
+.dark-mode :is(.btn.primary,.composer-bottom .btn,.toggle.on,.bot-bubble.answer){background:#2867cf;border-color:#2867cf;color:#fff}
+.dark-mode .btn.danger{background:#402329;border-color:#754049;color:#ffc1c8}
+.dark-mode :is(.chip,.chip.blue,.chip.gold,.tag,.tab-count,.list-tools h3 span,.status-tabs small,.conversation-footer>small,.day-separator span,.message-author>span,.demo-pill,.composer-top .ai-trigger,.workspace-version){background:#203754;border-color:#34547d;color:#b9d7ff}
+.dark-mode :is(.chip.green,.chat-person h3 .chip,.inbox-heading h1>span){background:#183d35;border-color:#2f6454;color:#9ce1c4}
+.dark-mode :is(.chip.warm,.temperature){background:#49321f;border-color:#6d4a2d;color:#ffd1a0}.dark-mode .temperature.medium{background:#403a22;color:#f5dda0}.dark-mode .temperature.cold{background:#1d3557;color:#a9ceff}
+.dark-mode :is(.message-bubble,.message-row.bot .message-bubble){background:#1a2b42;border-color:#354c69;box-shadow:0 3px 9px #0002}.dark-mode .message-row.bot .message-bubble{border-left-color:#6d9edc}
+.dark-mode .message-bubble p{color:#edf3fc}.dark-mode :is(.message-author,.message-row.bot .message-author,.ai-inline b,.score-card strong,.opportunity strong,.text-link,.attachment){color:#9cc8ff}
+.dark-mode .message-row.agent .message-bubble{background:#2867cf;border-color:#3479e0}.dark-mode .message-row.agent :is(p,.message-author,.message-meta,.attachment){color:#eff6ff}
+.dark-mode .composer textarea{background:transparent;color:#edf3fc}.dark-mode .progress{background:#263c58}.dark-mode .toggle{background:#263c58;border-color:#3a5272}
+.dark-mode th{background:#17283f;color:#b9cce6;border-color:#293c56}.dark-mode td{color:#c8d8ee;border-color:#293c56}
+.dark-mode .toast{background:#14342c;border-color:#3d7861;color:#b5ecd2}.dark-mode .modal-backdrop{background:#020711b0}.dark-mode .sidebar-shade{background:#02071190}
+.dark-mode .recharts-cartesian-grid line{stroke:#2b405e}.dark-mode .recharts-default-tooltip{background:#17283f!important;border-color:#345073!important;color:#e6edf8!important}.dark-mode .recharts-tooltip-label{color:#e6edf8!important}
