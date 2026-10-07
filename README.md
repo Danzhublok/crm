@@ -4,6 +4,10 @@ Central comercial em React, TypeScript, TailwindCSS, Recharts e Lucide React. O 
 
 **Apresentação:** abra `demo/APRESENTAR-CRM.html` diretamente no navegador. O arquivo inclui a aplicação e as logos. Para abrir no Windows, extraia a pasta inteira do ZIP e clique em `INICIAR.cmd`. Com Node.js instalado, ele inicia o servidor local e utiliza a demonstracao incluida quando nao ha `dist/`; sem Node.js, abre o HTML diretamente. Nao precisa instalar dependencias ou compilar para apresentar. Para gerar uma versao conectada com as suas variaveis de ambiente, execute `npm ci` e `npm run build`. Acesse `http://127.0.0.1:4173`. Não há uma hospedagem de produção configurada neste repositório.
 
+## Atendimento em notebook
+
+No atendimento, o menu usa uma coluna de icones e as barras superiores sao compactas. As mensagens e o campo de envio aproveitam a altura disponivel, com rolagem apenas no historico. O botao **Ampliar conversa** no cabecalho esconde o menu e a lista para ocupar toda a tela; **Restaurar layout** ou **Mostrar conversas** devolvem o layout. O perfil do cliente abre em uma gaveta sem reduzir a largura do chat. As outras paginas mantem o menu completo.
+
 ## O que está disponível
 
 **Visual atualizado:** tema azul e branco em todos os módulos, navegação mais compacta e foco no atendimento. A conversa usa toda a largura disponível ao lado da lista de contatos; o perfil do cliente abre pelo botão de informações no cabeçalho. Mensagens de 15 px, balões maiores, respostas em azul, texto de entrada ampliado e barras superiores reduzidas liberam espaço para as conversas.
