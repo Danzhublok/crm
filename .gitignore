@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.local
+.sites-runtime/
+*.tsbuildinfo
+
+.openai/
+.env.*
+!.env.example
