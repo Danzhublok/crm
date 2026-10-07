@@ -2,7 +2,7 @@
 
 Central comercial em React, TypeScript, TailwindCSS, Recharts e Lucide React. O frontend entregue inicia em **modo demonstração**, com dados fictícios no armazenamento do navegador. A migração e as Edge Functions Supabase são entregues em código; não foram executadas em um projeto real porque não foram fornecidas credenciais.
 
-**Apresentação:** abra `demo/APRESENTAR-CRM.html` diretamente no navegador. O arquivo inclui a aplicação e as logos. Para executar o projeto pelo Node.js, rode `npm ci` e `npm run build` antes de abrir `INICIAR.cmd` ou executar `node serve.mjs`. Acesse `http://127.0.0.1:4173`. Não há uma hospedagem de produção configurada neste repositório.
+**Apresentação:** abra `demo/APRESENTAR-CRM.html` diretamente no navegador. O arquivo inclui a aplicação e as logos. Para abrir no Windows, extraia a pasta inteira do ZIP e clique em `INICIAR.cmd`. Com Node.js instalado, ele inicia o servidor local e utiliza a demonstracao incluida quando nao ha `dist/`; sem Node.js, abre o HTML diretamente. Nao precisa instalar dependencias ou compilar para apresentar. Para gerar uma versao conectada com as suas variaveis de ambiente, execute `npm ci` e `npm run build`. Acesse `http://127.0.0.1:4173`. Não há uma hospedagem de produção configurada neste repositório.
 
 ## O que está disponível
 
@@ -27,7 +27,7 @@ npm run dev
 npm run build
 ```
 
-O build gera `dist/`. `resolve.preserveSymlinks` está habilitado para compatibilidade com o ambiente Windows com sandbox. A publicação está definida em `.openai/hosting.json`.
+O build gera `dist/`. `resolve.preserveSymlinks` está habilitado para compatibilidade com o ambiente Windows com sandbox. Para servir o build local, execute `node serve.mjs`.
 
 ## Conectar Supabase
 
@@ -98,4 +98,3 @@ O botão de lua/sol no topo alterna os modos claro e escuro, salvando a preferê
 O campo opcional `photoUrl` permite exibir uma foto HTTPS recebida de uma integração. Sem imagem, ou em caso de falha, o CRM mostra as iniciais. A sincronização automática das fotos do WhatsApp ainda depende do provedor conectado e não está implementada nesta demonstração.
 
 O arquivo `nexus-backup.json` existente no repositório foi preservado.
-
