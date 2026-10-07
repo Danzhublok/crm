@@ -1,0 +1,1138 @@
+{
+  "leads": [
+    {
+      "id": "lead-1",
+      "name": "Carlos Henrique",
+      "phone": "+55 (11) 98742-3010",
+      "email": "carlos@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "São Paulo",
+      "state": "SP",
+      "operation": "AUREON",
+      "source": "Meta Ads",
+      "campaign": "Seu próximo capítulo",
+      "utm_source": "meta ads",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Proposta",
+      "status": "Em atendimento",
+      "agent": "Mariana Costa",
+      "score": 82,
+      "value": 550000,
+      "entry": 80000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Alto ticket",
+        "Primeiro imóvel"
+      ],
+      "unread": 2,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-1m1",
+          "from": "bot",
+          "text": "Olá, Carlos! Sou o Assistente Comercial da AUREON. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-1m2",
+          "from": "lead",
+          "text": "Olá! Estou buscando crédito para comprar meu primeiro imóvel em São Paulo.",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-1m3",
+          "from": "agent",
+          "text": "Olá, Carlos! Sou a Mariana, especialista da Aureon. Será um prazer ajudar você nessa conquista. Qual o valor do imóvel que tem em mente?",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-1m4",
+          "from": "lead",
+          "text": "Tenho interesse em uma carta de R$ 550 mil.",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "a68d034a-2114-4e63-b8a3-15ef20525ab9",
+          "text": "Lead recebido via Meta Ads",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "9bcc91bc-c974-401b-8727-1668c4d80f50",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "0dfaa24b-af9c-4a92-bc33-46cf9345ff01",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Mariana Costa"
+        }
+      ],
+      "proposals": [
+        {
+          "id": "PROP-001",
+          "value": 550000,
+          "entry": 80000,
+          "months": 180,
+          "installment": 3200,
+          "plan": "Crédito imobiliário",
+          "notes": "Simulação ilustrativa. Condições sujeitas à análise e validação comercial.",
+          "status": "Criada",
+          "date": "2026-10-06"
+        }
+      ],
+      "docs": []
+    },
+    {
+      "id": "lead-2",
+      "name": "Fernanda Oliveira",
+      "phone": "+55 (11) 98742-3327",
+      "email": "fernanda@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Campinas",
+      "state": "SP",
+      "operation": "AUREON",
+      "source": "Google Ads",
+      "campaign": "Seu próximo capítulo",
+      "utm_source": "google ads",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Simulação",
+      "status": "Em atendimento",
+      "agent": "Mariana Costa",
+      "score": 76,
+      "value": 420000,
+      "entry": 65000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 1,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-2m1",
+          "from": "bot",
+          "text": "Olá, Fernanda! Sou o Assistente Comercial da AUREON. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-2m2",
+          "from": "lead",
+          "text": "Consegue me enviar uma simulação?",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-2m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-2m4",
+          "from": "lead",
+          "text": "Consegue me enviar uma simulação?",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "bd80b7d5-cea3-495c-8a29-f09f8366b16b",
+          "text": "Lead recebido via Google Ads",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "428be741-fd67-4341-b4ea-478c9ad3012c",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "15067f6a-6e6f-44d4-8bb2-6bba033ea30e",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Mariana Costa"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-3",
+      "name": "Rafael Mendes",
+      "phone": "+55 (11) 98742-3644",
+      "email": "rafael@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Santos",
+      "state": "SP",
+      "operation": "GR-INVEST",
+      "source": "Indicação",
+      "campaign": "Investir com visão",
+      "utm_source": "indicação",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Negociação",
+      "status": "Em atendimento",
+      "agent": "Lucas Almeida",
+      "score": 93,
+      "value": 900000,
+      "entry": 180000,
+      "income": 18000,
+      "objective": "Investir",
+      "term": 12,
+      "tags": [
+        "Investidor",
+        "Urgente"
+      ],
+      "unread": 1,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-3m1",
+          "from": "bot",
+          "text": "Olá, Rafael! Sou o Assistente Comercial da GR-INVEST. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-3m2",
+          "from": "lead",
+          "text": "Podemos conversar sobre a proposta hoje?",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-3m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-3m4",
+          "from": "lead",
+          "text": "Podemos conversar sobre a proposta hoje?",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "cc60719c-458d-481e-b452-4641a97f6285",
+          "text": "Lead recebido via Indicação",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "fee5fa36-b8f3-4f51-b7ed-d23885c12984",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "1c86e489-cb57-434d-9ec9-a1f27aa8182f",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Lucas Almeida"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-4",
+      "name": "Juliana Santos",
+      "phone": "+55 (11) 98742-3961",
+      "email": "juliana@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "São Paulo",
+      "state": "SP",
+      "operation": "AUREON",
+      "source": "Instagram",
+      "campaign": "Seu próximo capítulo",
+      "utm_source": "instagram",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T18:50:30.157Z",
+      "stage": "Qualificação",
+      "status": "Fila",
+      "agent": "Pedro Lima",
+      "score": 58,
+      "value": 320000,
+      "entry": 40000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-4m1",
+          "from": "bot",
+          "text": "Olá, Juliana! Sou o Assistente Comercial da AUREON. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-4m2",
+          "from": "lead",
+          "text": "Quais documentos preciso enviar?",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-4m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-4m4",
+          "from": "lead",
+          "text": "Quais documentos preciso enviar?",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "59457060-708d-4f3e-a9c7-bab61382c438",
+          "text": "Lead recebido via Instagram",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "8e3030fe-1277-489d-a431-9c945a560666",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "9e960e57-1f12-43ff-ab76-45f81d840e89",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Pedro Lima"
+        },
+        {
+          "id": "67d23433-220f-4cc3-9207-2bd43a6e291c",
+          "text": "Etapa alterada para Qualificação",
+          "time": "2026-10-06T18:47:50.754Z",
+          "by": "Mariana Costa"
+        },
+        {
+          "id": "66b7dce1-6fce-4915-a215-0a0c8037a6f9",
+          "text": "Mensagens visualizadas",
+          "time": "2026-10-06T18:50:30.157Z",
+          "by": "Mariana Costa"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-5",
+      "name": "André Ribeiro",
+      "phone": "+55 (11) 98742-4278",
+      "email": "andré@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Campinas",
+      "state": "SP",
+      "operation": "AUREON",
+      "source": "Meta Ads",
+      "campaign": "Seu próximo capítulo",
+      "utm_source": "meta ads",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Documentação",
+      "status": "Follow-up",
+      "agent": "Mariana Costa",
+      "score": 88,
+      "value": 650000,
+      "entry": 120000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 1,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-5m1",
+          "from": "bot",
+          "text": "Olá, André! Sou o Assistente Comercial da AUREON. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-5m2",
+          "from": "lead",
+          "text": "Vou analisar com minha esposa e te retorno.",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-5m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-5m4",
+          "from": "lead",
+          "text": "Vou analisar com minha esposa e te retorno.",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "32b04a80-e1d1-4ec5-8695-b62ae2741a55",
+          "text": "Lead recebido via Meta Ads",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "f0601832-fb56-466d-b41f-6d11390ebcef",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "8312f724-dcd0-49fe-8ae4-69ca6f4334f1",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Mariana Costa"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-6",
+      "name": "Beatriz Lima",
+      "phone": "+55 (11) 98742-4595",
+      "email": "beatriz@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Santos",
+      "state": "SP",
+      "operation": "GR-INVEST",
+      "source": "Landing Page",
+      "campaign": "Investir com visão",
+      "utm_source": "landing page",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Contato realizado",
+      "status": "Aguardando resposta",
+      "agent": "Lucas Almeida",
+      "score": 45,
+      "value": 480000,
+      "entry": 70000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-6m1",
+          "from": "bot",
+          "text": "Olá, Beatriz! Sou o Assistente Comercial da GR-INVEST. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-6m2",
+          "from": "lead",
+          "text": "Estou procurando meu primeiro imóvel.",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-6m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-6m4",
+          "from": "lead",
+          "text": "Estou procurando meu primeiro imóvel.",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "0a0e762a-de04-4fe9-bc97-5dc31113f241",
+          "text": "Lead recebido via Landing Page",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "922ef474-e0a4-459c-9293-557219fe7bff",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "c027dc67-7293-4bd7-9e1e-e340cd8f174a",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Lucas Almeida"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-7",
+      "name": "Marcelo Duarte",
+      "phone": "+55 (11) 98742-4912",
+      "email": "marcelo@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "São Paulo",
+      "state": "SP",
+      "operation": "AUREON",
+      "source": "WhatsApp",
+      "campaign": "Seu próximo capítulo",
+      "utm_source": "whatsapp",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Convertido",
+      "status": "Finalizados",
+      "agent": "Pedro Lima",
+      "score": 96,
+      "value": 750000,
+      "entry": 160000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-7m1",
+          "from": "bot",
+          "text": "Olá, Marcelo! Sou o Assistente Comercial da AUREON. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-7m2",
+          "from": "lead",
+          "text": "Recebi o contrato. Muito obrigado!",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-7m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-7m4",
+          "from": "lead",
+          "text": "Recebi o contrato. Muito obrigado!",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "abf56505-f9aa-48bf-98d5-c4eb74c71745",
+          "text": "Lead recebido via WhatsApp",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "5b9d7f4d-f0d8-4866-b092-e1244e841bc3",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "663c230d-a982-42da-87e2-c99dca41cd0b",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Pedro Lima"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-8",
+      "name": "Camila Ferreira",
+      "phone": "+55 (11) 98742-5229",
+      "email": "camila@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Campinas",
+      "state": "SP",
+      "operation": "GR-INVEST",
+      "source": "Google Ads",
+      "campaign": "Investir com visão",
+      "utm_source": "google ads",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Lead recebido",
+      "status": "Não atendidos",
+      "agent": "Lucas Almeida",
+      "score": 33,
+      "value": 380000,
+      "entry": 35000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-8m1",
+          "from": "bot",
+          "text": "Olá, Camila! Sou o Assistente Comercial da GR-INVEST. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-8m2",
+          "from": "lead",
+          "text": "Gostaria de entender como funciona.",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-8m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-8m4",
+          "from": "lead",
+          "text": "Gostaria de entender como funciona.",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "73473d2a-6a5e-45c1-ba05-0b8479872fed",
+          "text": "Lead recebido via Google Ads",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "3b578113-8410-4690-bf97-0d6e8313ae2f",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "6e4ce8e5-7772-4d27-925c-623e455da3dc",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Lucas Almeida"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-9",
+      "name": "Thiago Souza",
+      "phone": "+55 (11) 98742-5546",
+      "email": "thiago@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Santos",
+      "state": "SP",
+      "operation": "AUREON",
+      "source": "Orgânico",
+      "campaign": "Seu próximo capítulo",
+      "utm_source": "orgânico",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Fechamento",
+      "status": "Em atendimento",
+      "agent": "Mariana Costa",
+      "score": 72,
+      "value": 600000,
+      "entry": 95000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-9m1",
+          "from": "bot",
+          "text": "Olá, Thiago! Sou o Assistente Comercial da AUREON. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-9m2",
+          "from": "lead",
+          "text": "Pode preparar a proposta final.",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-9m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-9m4",
+          "from": "lead",
+          "text": "Pode preparar a proposta final.",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "a3941e2c-5612-4647-a27a-12091f9f4898",
+          "text": "Lead recebido via Orgânico",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "f5838bb0-459c-4f6a-97df-325764b99a5f",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "f439bda2-ba8f-4755-906b-f54054e60096",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Mariana Costa"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-10",
+      "name": "Patrícia Rocha",
+      "phone": "+55 (11) 98742-5863",
+      "email": "patrícia@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "São Paulo",
+      "state": "SP",
+      "operation": "GR-INVEST",
+      "source": "Meta Ads",
+      "campaign": "Investir com visão",
+      "utm_source": "meta ads",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Convertido",
+      "status": "Finalizados",
+      "agent": "Lucas Almeida",
+      "score": 91,
+      "value": 1100000,
+      "entry": 240000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-10m1",
+          "from": "bot",
+          "text": "Olá, Patrícia! Sou o Assistente Comercial da GR-INVEST. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-10m2",
+          "from": "lead",
+          "text": "Tudo certo, proposta aprovada!",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-10m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-10m4",
+          "from": "lead",
+          "text": "Tudo certo, proposta aprovada!",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "62b0b813-0baa-482e-958d-50db704040cd",
+          "text": "Lead recebido via Meta Ads",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "52f837b0-7399-4937-871c-47e78dc6a85f",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "a9bf465d-6f60-4f82-b2c8-06a839874107",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Lucas Almeida"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-11",
+      "name": "Bruno Martins",
+      "phone": "+55 (11) 98742-6180",
+      "email": "bruno@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Campinas",
+      "state": "SP",
+      "operation": "AUREON",
+      "source": "Facebook",
+      "campaign": "Seu próximo capítulo",
+      "utm_source": "facebook",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Perdido",
+      "status": "Finalizados",
+      "agent": "Pedro Lima",
+      "score": 24,
+      "value": 280000,
+      "entry": 20000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-11m1",
+          "from": "bot",
+          "text": "Olá, Bruno! Sou o Assistente Comercial da AUREON. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-11m2",
+          "from": "lead",
+          "text": "Vou deixar para outro momento.",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-11m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-11m4",
+          "from": "lead",
+          "text": "Vou deixar para outro momento.",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "0f8e0433-fa8a-4fd1-8c1c-764a02420bea",
+          "text": "Lead recebido via Facebook",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "abc5f26a-b2c6-462d-a992-af9ab2f58044",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "6c866e4d-ea26-400d-93f8-a5a3ef309487",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Pedro Lima"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    },
+    {
+      "id": "lead-12",
+      "name": "Larissa Gomes",
+      "phone": "+55 (11) 98742-6497",
+      "email": "larissa@exemplo.com",
+      "cpf": "000.000.000-00",
+      "city": "Santos",
+      "state": "SP",
+      "operation": "GR-INVEST",
+      "source": "Instagram",
+      "campaign": "Investir com visão",
+      "utm_source": "instagram",
+      "utm_medium": "paid_social",
+      "utm_content": "criativo_01",
+      "created": "2026-10-06T12:00:00.000Z",
+      "updated": "2026-10-06T17:32:00.000Z",
+      "stage": "Proposta",
+      "status": "Follow-up",
+      "agent": "Lucas Almeida",
+      "score": 79,
+      "value": 520000,
+      "entry": 90000,
+      "income": 18000,
+      "objective": "Comprar imóvel",
+      "term": 12,
+      "tags": [
+        "Crédito imobiliário"
+      ],
+      "unread": 0,
+      "followup": "2026-10-06T16:00",
+      "messages": [
+        {
+          "id": "lead-12m1",
+          "from": "bot",
+          "text": "Olá, Larissa! Sou o Assistente Comercial da GR-INVEST. Como posso ajudar você a realizar seu próximo objetivo?",
+          "time": "14:18"
+        },
+        {
+          "id": "lead-12m2",
+          "from": "lead",
+          "text": "Obrigada pela apresentação.",
+          "time": "14:20"
+        },
+        {
+          "id": "lead-12m3",
+          "from": "agent",
+          "text": "Perfeito! Vou avaliar seu perfil e preparar as melhores opções para o seu objetivo.",
+          "time": "14:24"
+        },
+        {
+          "id": "lead-12m4",
+          "from": "lead",
+          "text": "Obrigada pela apresentação.",
+          "time": "14:32"
+        }
+      ],
+      "activities": [
+        {
+          "id": "296da8b4-9f93-4f6c-980a-54d8464ab035",
+          "text": "Lead recebido via Instagram",
+          "time": "2026-10-06T14:18",
+          "by": "Sistema"
+        },
+        {
+          "id": "9615c265-d87b-4e27-bcdf-78661fb73b56",
+          "text": "Pré-qualificação iniciada",
+          "time": "2026-10-06T14:19",
+          "by": "Assistente Comercial"
+        },
+        {
+          "id": "e4f9d9a3-e46d-4174-b805-d3443a19fa14",
+          "text": "Atendimento assumido",
+          "time": "2026-10-06T14:24",
+          "by": "Lucas Almeida"
+        }
+      ],
+      "proposals": [],
+      "docs": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "2dd9136d-d7a4-47c5-b0b5-55f749692847",
+      "leadId": "lead-1",
+      "operation": "AUREON",
+      "title": "Enviar simulação personalizada",
+      "agent": "Mariana Costa",
+      "due": "2026-10-06T15:00",
+      "priority": "Alta",
+      "done": false
+    },
+    {
+      "id": "9ec8991d-9f43-467d-b3d3-74c4434d60ae",
+      "leadId": "lead-5",
+      "operation": "AUREON",
+      "title": "Retomar análise da proposta",
+      "agent": "Mariana Costa",
+      "due": "2026-10-06T16:00",
+      "priority": "Alta",
+      "done": false
+    },
+    {
+      "id": "be57ae3e-1213-488d-b0e7-0d57fa231475",
+      "leadId": "lead-3",
+      "operation": "GR-INVEST",
+      "title": "Confirmar reunião de negociação",
+      "agent": "Lucas Almeida",
+      "due": "2026-10-06T17:00",
+      "priority": "Média",
+      "done": false
+    }
+  ],
+  "appointments": [
+    {
+      "id": "f4cf5bc8-fc2c-45a8-8f54-50d84eb5b0d1",
+      "leadId": "lead-3",
+      "operation": "GR-INVEST",
+      "title": "Apresentação de proposta · Rafael",
+      "date": "2026-10-06T15:30",
+      "type": "Reunião",
+      "agent": "Lucas Almeida"
+    },
+    {
+      "id": "ccb9e42e-5efa-4bff-af0e-4ce561623d6a",
+      "leadId": "lead-1",
+      "operation": "AUREON",
+      "title": "Simulação · Carlos Henrique",
+      "date": "2026-10-06T16:30",
+      "type": "Ligação",
+      "agent": "Mariana Costa"
+    }
+  ],
+  "team": [
+    {
+      "id": "member-1",
+      "name": "Mariana Costa",
+      "email": "mariana@exemplo.com",
+      "operation": "AUREON",
+      "role": "Atendente",
+      "online": true,
+      "response": 3
+    },
+    {
+      "id": "member-2",
+      "name": "Lucas Almeida",
+      "email": "lucas@exemplo.com",
+      "operation": "GR-INVEST",
+      "role": "Supervisor",
+      "online": true,
+      "response": 4
+    },
+    {
+      "id": "member-3",
+      "name": "Pedro Lima",
+      "email": "pedro@exemplo.com",
+      "operation": "AUREON",
+      "role": "Atendente",
+      "online": false,
+      "response": 6
+    }
+  ],
+  "rules": [
+    {
+      "id": "dc0ba570-9196-4f31-9c47-f8077af263eb",
+      "operation": "AUREON",
+      "name": "Recepção e pré-qualificação",
+      "trigger": "Lead entrou",
+      "action": "Enviar mensagem",
+      "delay": 0,
+      "message": "Olá! Seja bem-vindo à Aureon. Qual o seu objetivo de crédito?",
+      "active": true
+    },
+    {
+      "id": "6378a305-ce45-408f-8e04-926d6597c774",
+      "operation": "AUREON",
+      "name": "Prioridade para leads quentes",
+      "trigger": "Score acima de 70",
+      "action": "Enviar para fila",
+      "delay": 0,
+      "message": "Seu perfil foi analisado. Vou encaminhar você para um especialista.",
+      "active": true
+    },
+    {
+      "id": "17763be1-b7be-4656-8160-822dcef6a21c",
+      "operation": "GR-INVEST",
+      "name": "Retomar proposta enviada",
+      "trigger": "Sem resposta",
+      "action": "Criar tarefa",
+      "delay": 1440,
+      "message": "Olá! Conseguiu analisar nossa proposta?",
+      "active": true
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "c02d41a7-ae01-42f3-b103-a1bcfca817ff",
+      "name": "Seu próximo capítulo",
+      "operation": "AUREON",
+      "source": "Meta Ads",
+      "budget": 5000,
+      "active": true
+    },
+    {
+      "id": "c04c02c3-4282-4e4a-8485-80b8005fbf5c",
+      "name": "Investir com visão",
+      "operation": "GR-INVEST",
+      "source": "Google Ads",
+      "budget": 3500,
+      "active": true
+    }
+  ],
+  "settings": {
+    "monthlyGoal": 3000000,
+    "distribution": "Round Robin",
+    "botActive": true,
+    "handoff": 70,
+    "botGreeting": "Olá 👋 Seja bem-vindo. Sou o Assistente Comercial. Vamos encontrar uma opção para seu objetivo?",
+    "followups": [
+      30,
+      1440,
+      4320,
+      10080,
+      21600
+    ],
+    "followupText": "Olá {nome}, conseguiu analisar a simulação que enviamos? Estou à disposição para ajudar."
+  },
+  "audit": [
+    {
+      "id": "2a8d32ec-283b-4242-9f45-775a7cd52489",
+      "text": "Mensagens visualizadas",
+      "time": "2026-10-06T18:50:30.157Z",
+      "by": "Mariana Costa"
+    },
+    {
+      "id": "12446ffb-63fc-4e6f-964e-afd7c15e31b7",
+      "text": "Etapa alterada para Qualificação",
+      "time": "2026-10-06T18:47:50.754Z",
+      "by": "Mariana Costa"
+    }
+  ]
+}
